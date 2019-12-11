@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  
+  <title>Freed Interactive</title>
+  
+  <!-- CSS  -->
+  <link href="styles.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/71daca51f7.js"></script>
+</head>
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="https://i.ibb.co/2cxs5z7/freed-logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#portfolio">Our Portolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#portfolio">Our Portolio</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  
+  
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img src="https://i.ibb.co/jbDYz80/bg.jpg"> <!-- image 1 -->
+        <div class="caption left-align">
+          <h3>Freed <br> Interactive</h3>
+          <h5 class="light black-text text-lighten-3">An Agency Focused <br> On Human Centered <br> Design.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://i.ibb.co/DryWdzJ/bg-2.jpg"> <!-- image 2 -->
+        <div class="caption right-align flip">
+          <h3>Great Ideas</h3>
+          <h5 class="light black-text text-lighten-3">Wild and scary, great idea  s threaten <br> mediocrity. It takes lion-like courage <br> to reach out and tame them.
+          </h5>
+        </div>
+      </li>
+      <li>
+        <img src="https://i.ibb.co/4Fm68mZ/bg-3.jpg"> <!-- image 3 -->
+        <div class="caption left-align">
+          <h3>Data Analysis Tool <br> For Everyone</h3>
+          <h5 class="light black-text text-lighten-3">Big data analytics is the often <br> complex process of examining <br> large and varied data sets - or <br> big data - to uncover information <br> including hidden patterns.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div class="parallax-container valign-wrapper" id="about-us">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h2 class="header col s12 light capital">trust <em>the</em> process</h2>
+          <p class="block">We are a 360 Communications firm established in 2018 in Nairobi, Kenya. We partner with clients to conceptualise and organize unique, memorable, flawless and impactful campaigns.</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax bg2"></div>
+  </div>
+
+
+  <div class="parallax-container">
+    <div class="section no-pad">
+
+      <!--   First Row   -->
+        
+        <div class="row first">
+        
+        	<div class="col s12 m6 paragraph">
+                <h3>WE ATTRACT GENIUS</h3>
+                <p>We believe ideas can come from anywhere, and we are always looking for the best talent to join our team of passionate thinkers and makers.</p>
+            </div>
+            
+            <div class="col s12 m6">
+          		<img src="https://i.ibb.co/y8V9hvk/2-3.jpg" class="responsive-img">
+        	</div>
+        
+        </div>
+        
+        <div class="row">
+        
+        	<div class="col s12 m6">
+          		<img src="https://i.ibb.co/jDkfHYd/3-5.jpg" class="responsive-img">
+        	</div>
+        
+        	<div class="col s12 m6 paragraph">
+                <h3>WE CULTIVATE CREATIVITY</h3>
+                <p>No man is an island. We believe that we are stronger together, utilizing each other’s strength to provide our clients with the absolute ultimate brand experience.</p>
+            </div>
+        
+        </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper" id="portfolio">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h2 class="header col s12 light"><i>Our</i> PORTFOLIO</h2>
+          <p class="block">Every idea and element we deliver is custom-crafted, resulting in unique, true-to-your-brand solutions. But don’t take our word for it; the proof is in the portfolio.</p>
+          <p class="block">CLICK the below buttons to have a look.</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax bg2"></div>
+  </div>
+
+  <div class="portfolio">
+    <div id="myBtnContainer">
+      <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+      <button class="btn" onclick="filterSelection('advertising')"> Advertising</button>
+      <button class="btn" onclick="filterSelection('branding')"> Branding</button>
+      <button class="btn" onclick="filterSelection('print')"> Print</button>
+    </div>
+  </div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column advertising">
+    <div class="content">
+      <img src="https://i.ibb.co/MNpfT57/a1.jpg" alt="Crown Paints" style="width:100%" class="responsive-img">
+      <h4>Crown Paints</h4>
+    </div>
+  </div>
+  <div class="column advertising">
+    <div class="content">
+      <img src="https://i.ibb.co/bbr7vxc/a2.jpg" alt="Broadway Bakeries" style="width:100%" class="responsive-img">
+      <h4>Broadway Bakeries</h4>
+    </div>
+  </div>
+
+  <div class="column branding">
+    <div class="content">
+      <img src="https://i.ibb.co/g6PqW9c/b1.jpg" alt="Chrome Vodka" style="width:100%" class="responsive-img">
+      <h4>Chrome Vodka</h4>
+    </div>
+  </div>
+  <div class="column branding">
+    <div class="content">
+      <img src="https://i.ibb.co/hVfWV2S/b2.jpg" alt="Valon Baby Care" style="width:100%" class="responsive-img">
+      <h4>Valon Baby Care</h4>
+    </div>
+  </div>
+
+  <div class="column print">
+    <div class="content">
+      <img src="https://i.ibb.co/FmmmmT9/p1.jpg" alt="Mandevu Beard Care" style="width:100%" class="responsive-img">
+      <h4>Mandevu Beard Care</h4>
+    </div>
+  </div>
+  <div class="column print">
+    <div class="content">
+      <img src="https://i.ibb.co/wBx66zg/p2.jpg" alt="Mandevu Beard Wash" style="width:100%">
+      <h4>Mandevu Beard Wash</h4>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="https://i.ibb.co/z5xqsVK/p3.jpg" alt="Von" style="width:100%" class="responsive-img">
+      <h4>Von</h4>
+    </div>
+  </div>
+  </div>
+
+  <div class="divider caption"></div>
+
+  <div class="container" id="contact">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h2>Contact <i>Us</i></h2>
+           <form class="col s12">
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">First Name</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="icon_prefix" type="text" class="validate">
+                <label for="icon_prefix">Last Name</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s6">
+                <i class="material-icons prefix">phone</i>
+                <input id="icon_telephone" type="tel" class="validate">
+                <label for="icon_telephone">Telephone</label>
+              </div>
+              <div class="input-field col s6">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="text" class="validate">
+                <label for="email">Email</label>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">message</i>
+                <input id="message" type="tel" class="validate">
+                <label for="message">Your Message</label>
+              </div>
+            </div>
+
+            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+ 
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Reach Us</h5>
+          <p class="grey-text text-lighten-4">Ova Bay Building, Off Raphta Road, Ground Floor – OV6<br>
+          <u>Tel:</u> +254 (72) 1137 936<br>
+          <u>Email:</u> sema@freedinteractive.com
+          </p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Useful Links</h5>
+          <ul>
+            <li><a class="white-text" href="index.html">Home</a></li>
+            <li><a class="white-text" href="#about-us">About Us</a></li>
+            <li><a class="white-text" href="#portfolio">Our Portfolio</a></li>
+            <li><a class="white-text" href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12 socials">
+          <h5 class="white-text">Follow Us</h5>
+          <a href="https://www.facebook.com/bilal.bryian.fierce" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="https://www.instagram.com/_ot____/" target="_blank">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/Bryomajor" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.pinterest.com/ot_bilal/" target="_blank">
+            <i class="fab fa-pinterest"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Designed by <a class="brown-text text-lighten-3" href="https://www.linkedin.com/in/brian-otieno-101550b7/" target="_blank">The Coder</a>
+      <span id="copyright">Copyright &copy; 2019 Freed Interactive</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="materialize.js"></script>
+  <script src="init.js"></script>
+
+  </body>
+</html>

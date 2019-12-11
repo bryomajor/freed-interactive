@@ -1,0 +1,262 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav {
+	position: fixed;
+	z-index: 70;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.arrange {
+	z-index: 89;
+}
+
+.slides > li > img {
+	background-size: cover;
+	height: 812px !important;
+}
+
+.slides {
+	height: 812px !important;
+	opacity: 1.2;
+}
+
+.caption > h3, .caption > h5 {
+	color: black;
+}
+
+.caption {
+	margin-top: 5%;
+}
+
+.slider	 {
+	height: 812px !important;
+}
+
+.body-img {
+	width: 425px;
+	height: auto;
+}
+
+h2, h3 {
+	font-family: 'yrthree_boldregular' !important;
+}
+
+.paragraph p {
+	font-family: 'Raleway' !important;
+	letter-spacing: 1px;
+	line-height: 24px;
+	font-size: 20px;
+	color: black;
+}
+
+.paragraph h3 {
+	font-family: 'Raleway',sans-serif !important;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #07002d;
+	font-size: 1.3rem;
+	letter-spacing: .4rem;
+	margin-top: 20%;
+}
+
+.paragraph h2 {
+	font-style: italic;
+	font-size: 4rem;
+	color: #07002d;
+	padding-bottom: 3rem;
+}
+
+.paragraph {
+	padding: 10% !important;
+}
+
+.first {
+	padding: 0 !important;
+}
+
+.third {
+	padding: 0;
+}
+
+.bg2 {
+	background-color: #07002d;
+}
+
+.capital {
+	font-family: Georgia,serif;
+	text-transform: uppercase;
+	letter-spacing: 2.5rem;
+	font-size: 3.5rem;
+}
+
+em {
+	text-transform: lowercase;
+	letter-spacing: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.block {
+	font-size: 19px;
+    font-family: 'yrthree_boldregular';
+}
+
+
+/*Portfolio*/
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 2%;
+  background-color: #07002d;
+  cursor: pointer;
+  margin-top: 2%;
+}
+
+.btn.active {
+  background-color: #666;
+   color: white;
+}
+
+#myBtnContainer {
+	text-align: center;
+}
+
+.btn:hover {
+	background-color: black;
+}
+
+.page-footer {
+	background-color: #07002d;
+}
+
+u {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.footer-copyright > .container p {
+	float: right;
+}
+
+#copyright {
+	float: right;
+}
+
+#contact {
+	padding-top: 5%;
+}
+
+.header {
+	letter-spacing: 10px;
+	text-align: center;
+}
+
+.btn {
+	padding-top: 0;
+}
+
+.row {
+	margin-bottom: -8px;
+}
+
+.content h4 {
+	text-align: center;
+}
+
+.socials i {
+	padding-right: 10px;
+	color: white;
+}
